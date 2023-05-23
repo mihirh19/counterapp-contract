@@ -12,4 +12,8 @@ contract MyContract {
     function incrementcounter() public{
         num++;
     }
+    
+    function decrementcounter() public{
+        num--;
+    }
 }
